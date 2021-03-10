@@ -7,6 +7,8 @@ import 'antd/dist/antd.css';
 import { Breadcrumb } from 'antd';
 
 import Home from './pages/home/Home';
+import Exercise from "./pages/exercise/Exercise";
+
 import './App.scss';
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/exercise">
+              <Exercise />
             </Route>
           </Switch>
         </Router>

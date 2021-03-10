@@ -1,0 +1,28 @@
+.exercise-container {
+
+  .search-wrapper {
+    margin-top: 1rem;
+    padding: 0 .5rem;
+
+    .ant-input-affix-wrapper {
+      border-radius: 50px;
+    }
+  }
+
+  .tabs-wrapper {
+    margin-top: .25rem;
+    padding: 0 .5rem;
+    .ant-tabs-nav-operations {
+      display: none;
+    }
+  }
+
+  .card-wrapper {
+    padding: 0 .5rem;
+    margin-top: 1rem;
+
+    .bapeul-card-container + .bapeul-card-container {
+      margin-top: 1.5rem;
+    }
+  }
+}

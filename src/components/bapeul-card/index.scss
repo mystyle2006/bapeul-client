@@ -1,0 +1,29 @@
+.bapeul-card-container {
+  .ant-card {
+
+  }
+
+  .card-description {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+
+    .right-section {
+      display: flex;
+      justify-content: space-between;
+
+      .button-section {
+        margin-left: .5rem;
+
+        .ant-btn {
+          width: 60px;
+          border-radius: 50px;
+          height: 24px;
+          font-size: 11px;
+          line-height: 12px;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
