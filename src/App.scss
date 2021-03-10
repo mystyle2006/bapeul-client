@@ -1,4 +1,15 @@
 .container {
   width: 375px;
+  padding-top: 6px;
   margin: 0 auto;
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 .5rem;
+
+    .ant-breadcrumb-separator {
+      margin: 0 4px;
+    }
+  }
 }
