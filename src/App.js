@@ -8,8 +8,10 @@ import { Breadcrumb } from 'antd';
 
 import Home from './pages/home/Home';
 import Exercise from "./pages/exercise/Exercise";
+import ExerciseHistory from "./pages/exerciseHistory/ExerciseHistory";
 
 import './App.scss';
+import './styles/elements.scss';
 
 function App() {
   return (
@@ -26,8 +28,11 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/exercise">
+            <Route exact path="/exercise">
               <Exercise />
+            </Route>
+            <Route exact path="/exercise/history">
+              <ExerciseHistory />
             </Route>
           </Switch>
         </Router>

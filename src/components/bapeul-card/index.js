@@ -18,7 +18,9 @@ const BapeulCard = () => {
         <div className="right-section">
           <Like />
           <div className="button-section">
-            <Button>
+            <Button
+              className="bapeul-ant-btn"
+            >
               추가하기
             </Button>
           </div>

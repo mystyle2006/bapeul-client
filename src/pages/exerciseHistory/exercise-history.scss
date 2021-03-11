@@ -1,0 +1,24 @@
+.exercise-history-container {
+  .current-complete-percentage {
+    margin-top: 1rem;
+    text-align: center;
+
+    .ant-statistic-content {
+      font-size: 2rem;
+    }
+
+    .ant-statistic-content-suffix {
+      font-size: 1.5rem;
+    }
+  }
+
+  .history-list-wrapper {
+    padding: 0 6px;
+  }
+
+  .history-list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
