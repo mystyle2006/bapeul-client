@@ -6,12 +6,12 @@ import {
 import 'antd/dist/antd.css';
 import { Breadcrumb } from 'antd';
 
-import Home from './pages/home/Home';
-import Exercise from "./pages/exercise/Exercise";
-import ExerciseHistory from "./pages/exerciseHistory/ExerciseHistory";
+import Home from 'pages/home/Home';
+import Exercise from "pages/exercise/Exercise";
+import ExerciseHistory from "pages/exerciseHistory/ExerciseHistory";
 
-import './App.scss';
-import './styles/elements.scss';
+import 'App.scss';
+import 'styles/elements.scss';
 
 function App() {
   return (

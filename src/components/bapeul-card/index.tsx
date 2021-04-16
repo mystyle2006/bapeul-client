@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Card } from "antd";
-import Like from '../Like';
+import Like from 'components/Like';
 
 import './index.scss';
 
@@ -9,7 +9,7 @@ const BapeulCard = () => {
     <div className="bapeul-card-container">
       <Card
         className="card"
-        cover={<center>image</center>}
+        cover={<div>image</div>}
       />
       <div className="card-description">
         <div>

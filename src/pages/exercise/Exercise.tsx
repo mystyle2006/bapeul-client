@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, Tabs } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
-import BapeulCard from '../../components/bapeul-card';
+import BapeulCard from 'components/bapeul-card';
 
 import './exercise.scss';
 
